@@ -5,10 +5,6 @@
         <link rel="stylesheet" href="test.css">
     </head>
     <body>
-        <form onsubmit="submitform()" value="form">
-            <input type="text" name="link">
-            <input type="text" name="hash">
-            <input type="submit" value="Submit">
-        </form>
+        <form action="{% test 'add_data' %}"></form>
     </body>
-</html> 
+</html>
